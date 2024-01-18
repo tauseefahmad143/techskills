@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.techskills.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            Tech<span>Skills</span>
+        </div>
+        <div class="menu">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="">About</a>
+                <a href="index.html#contact-more">Contact Us</a>
+                <a href="about.html"> <i class="fa-solid fa-user"></i></a>
+
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="techskills">
+            <h1>TechSkills</h1>
+            <p>
+                “Tech skills” is an establishment of a learning space, where a group of educators work together in a
+                positive domain to enhance the quality of the learners in all the favorable aspects. Student’s booming
+                growth is all that which we aim for.
+                <br><br>
+                We are that ladder of the learner from where one can find their way to achieve their triumph. Decoding
+                the
+                conundrum of a career is where the person feels confused the most. And at that moment, we work for you
+                like
+                icing on the cake.
+                <br><br>
+                We ensure that our students gain all the potential to achieve the aim for which they were seeking. With
+                Job
+                availability as per your interest of work is one of the perk advantages of our academy. above all of
+                these
+                factors, our main purpose is to bring curiosity in the learner about learning new skills and maintain a
+                healthy educating environment.
+            </p>
+        </div>
+        <div class="image">
+            <img src="student.jpeg" alt="">
+        </div>
+    </div>
+    <footer>
+        Copyright © by TechSkills || Designed & Developed by <span>&nbsp;&nbsp;Tauseef &nbsp;</span><span>Khan</span>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
