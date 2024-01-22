@@ -580,8 +580,11 @@ footer span:hover{
 }
 @media screen and (max-width:570px) {
     footer{
-        width: 100%;
-        font-size: 7px;
+        display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 11px;
+}
     }
     footer span{
         font-size: 7px;
@@ -710,7 +713,7 @@ footer span:hover{
         font-size: 7px;
     }
     footer span{
-        font-size: 7px;
+        font-size: 20px;
     }
     .menu a{
         padding: 5px;
